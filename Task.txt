@@ -1,0 +1,60 @@
+1: Write Backend API Using Express in Node.js
+
+Set Up the Project:
+* Initialize a new Node.js project.
+* Install required dependencies (express, axios, cors).
+
+Create the Express Server:
+
+* Set up the basic Express server.
+* Enable CORS for cross-origin requests.
+
+Create API Endpoints:
+
+* Define a route to fetch movies data from the TMDB API.
+* Parse and send the relevant movie data (name, main actors, director) to the frontend.
+
+Handle Errors:
+
+* Implement error handling for API requests and responses.
+
+2: Get Movies Data from TMDB Website and Show It in the Front End 
+
+TMDB API Integration:
+* Register for an API key on the TMDB website.
+* Read TMDB API documentation to understand endpoints for fetching movie details.
+
+Fetch Movies Data:
+
+* Use axios or similar to make HTTP requests to TMDB API.
+* Fetch movie details including images, names, main actors, and directors.
+
+Send Data to Frontend:
+
+* Send the fetched movies data from the backend to the frontend via API endpoints.
+
+3: Display Movie Data on Frontend
+
+Set Up Frontend Framework:
+
+* Choose a frontend framework/library (React, Angular, or Vue).
+
+Create UI Components:
+
+* Create components for displaying movie images.
+* Create components for displaying movie details (name, main actors, director).
+
+Fetch Data from Backend:
+
+* Use fetch or axios to make requests to the backend API.
+* Handle the response data and update the UI.
+
+Style the Components:
+
+* Apply CSS to style the movie images and details.
+* Handle User Interactions:
+
+Implement any necessary user interactions, such as clicking on a movie to see more details.
+By following these points, you can build a complete application that fetches movie data from TMDB and displays it on the frontend with the required details.
+
+TMDB: https://developer.themoviedb.org/reference/changes-movie-list
